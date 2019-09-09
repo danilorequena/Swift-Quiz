@@ -144,7 +144,7 @@
                         <outletCollection property="btAnswers" destination="U6k-qW-Xof" collectionClass="NSMutableArray" id="klm-jT-Ef1"/>
                         <outletCollection property="btAnswers" destination="DvK-3g-oCZ" collectionClass="NSMutableArray" id="HSp-Ws-mR3"/>
                         <outletCollection property="btAnswers" destination="2Bx-UH-Juo" collectionClass="NSMutableArray" id="g74-Am-UZo"/>
-                        <segue destination="Bj4-D4-c34" kind="show" id="is2-yp-dPV"/>
+                        <segue destination="Bj4-D4-c34" kind="show" identifier="resultSegue" id="is2-yp-dPV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pLb-WO-tCT" userLabel="First Responder" sceneMemberID="firstResponder"/>

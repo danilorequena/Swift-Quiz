@@ -74,7 +74,7 @@ class QuizManager {
     func validateAnswer(index: Int) {
         _totalAnswers += 1
         if quiz.validateOption(index) {
-            _totalCorrectAnswers =+ 1        }
+            _totalCorrectAnswers += 1        }
     }
     
 }
